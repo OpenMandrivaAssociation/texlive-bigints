@@ -1,3 +1,9 @@
+# revision 17223
+# category Package
+# catalog-ctan /macros/latex/contrib/bigints
+# catalog-date 2010-02-26 01:00:05 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-bigints
 Version:	20100226
 Release:	1
@@ -43,6 +49,7 @@ matrix.
 %doc %{_texmfdistdir}/doc/latex/bigints/bigints.pdf
 %doc %{_texmfdistdir}/doc/latex/bigints/bigints.tex
 %doc %{_texmfdistdir}/doc/latex/bigints/perso.ist
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ matrix.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

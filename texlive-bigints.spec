@@ -1,12 +1,12 @@
-# revision 17223
+# revision 29803
 # category Package
 # catalog-ctan /macros/latex/contrib/bigints
-# catalog-date 2010-02-26 01:00:05 +0100
+# catalog-date 2012-04-28 20:54:25 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-bigints
-Version:	20100226
-Release:	2
+Version:	20120428
+Release:	1
 Summary:	Writing big integrals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bigints
@@ -50,18 +50,3 @@ matrix.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100226-2
-+ Revision: 749701
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100226-1
-+ Revision: 717947
-- texlive-bigints
-- texlive-bigints
-- texlive-bigints
-- texlive-bigints
-- texlive-bigints
-

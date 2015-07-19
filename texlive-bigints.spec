@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-bigints
 Version:	20120428
-Release:	8
+Release:	9
 Summary:	Writing big integrals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bigints

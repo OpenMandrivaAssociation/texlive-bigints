@@ -5,8 +5,8 @@ Summary:	Writing big integrals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bigints
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bigints.r29803.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bigints.doc.r29803.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bigints.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bigints.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg

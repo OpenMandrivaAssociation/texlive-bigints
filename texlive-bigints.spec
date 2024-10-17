@@ -3,7 +3,7 @@ Version:	29803
 Release:	2
 Summary:	Writing big integrals
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bigints
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bigints
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bigints.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bigints.doc.r%{version}.tar.xz
